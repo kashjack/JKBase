@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'JKBase'
-  s.version          = '0.1.0'
-  s.summary          = 'Swift 基础库'
+  s.name             = "JKBase"
+  s.version          = "0.0.1"
+  s.summary          = "Swift 基础库"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/kashjack/JKBase'
+  s.homepage         = "https://github.com/kashjack/JKBase"
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'kashjack' => 'kashjack@163.com' }
-  s.source           = { :git => 'https://github.com/kashjack/JKBase.git', :tag => s.version.to_s }
+  s.license          = { :type => "MIT", :file => "LICENSE" }
+  s.author           = { "kashjack" => "kashjack@163.com" }
+  s.source           = { :git => "https://github.com/kashjack/JKBase.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = "9.0"
 
-  s.source_files = 'JKBase/Classes/**/*'
+  s.source_files = "JKBase/Classes/**/*"
   
   # s.resource_bundles = {
   #   'JKBase' => ['JKBase/Assets/*.png']
