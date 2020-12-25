@@ -1,0 +1,22 @@
+{
+  "name": "JKBase",
+  "version": "0.1.0",
+  "summary": "A short description of JKBase.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kashjack/JKBase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kashjack": "kashjack@163.com"
+  },
+  "source": {
+    "git": "https://github.com/kashjack/JKBase.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "JKBase/Classes/**/*"
+}

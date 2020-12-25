@@ -1,0 +1,6 @@
+framework module JKBase {
+  umbrella header "JKBase-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - JKBase (0.1.0)
+
+DEPENDENCIES:
+  - JKBase (from `../`)
+
+EXTERNAL SOURCES:
+  JKBase:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JKBase: 59ba345dfb703aae4d1f159994731c27a4413a5a
+
+PODFILE CHECKSUM: 8a1ac6ee4ae22b009493ce649b4378ad65f80caf
+
+COCOAPODS: 1.10.0
