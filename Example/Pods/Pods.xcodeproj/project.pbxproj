@@ -14,6 +14,7 @@
 		55B82E8B2599DAC60072119E /* JKColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B82E8A2599DAC60072119E /* JKColor.swift */; };
 		55B82E912599DAD20072119E /* JKSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B82E8F2599DAD20072119E /* JKSubstring.swift */; };
 		55B82E922599DAD20072119E /* JKString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B82E902599DAD20072119E /* JKString.swift */; };
+		55B82EF12599E9ED0072119E /* JKDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B82EF02599E9ED0072119E /* JKDate.swift */; };
 		86549872CB6C558834551548F22C4F59 /* Pods-JKBase_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA7C9A26415DAEFFFD8DFDDA31C56003 /* Pods-JKBase_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A616ABFA73CF6A9FDF2199BF0BBF5CDF /* Pods-JKBase_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3C827F1CA7D8AA151E58FA57D4605C /* Pods-JKBase_Tests-dummy.m */; };
 		D52BC71308CFDAEB9125A7B1E64A6010 /* JKBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC615F9F0803B1B8E8AF71AE82F53FF6 /* JKBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -51,6 +52,7 @@
 		55B82E8A2599DAC60072119E /* JKColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JKColor.swift; path = ../../Classes/JKColor.swift; sourceTree = "<group>"; };
 		55B82E8F2599DAD20072119E /* JKSubstring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JKSubstring.swift; path = ../../../Classes/JKSubstring.swift; sourceTree = "<group>"; };
 		55B82E902599DAD20072119E /* JKString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JKString.swift; path = ../../../Classes/JKString.swift; sourceTree = "<group>"; };
+		55B82EF02599E9ED0072119E /* JKDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JKDate.swift; path = ../../../Classes/JKDate.swift; sourceTree = "<group>"; };
 		5F3C827F1CA7D8AA151E58FA57D4605C /* Pods-JKBase_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JKBase_Tests-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7BD7EA7C18F627BD51EF62BCD09F7BBD /* JKBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JKBase.release.xcconfig; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 		55B82E892599DAB30072119E /* String */ = {
 			isa = PBXGroup;
 			children = (
+				55B82EF02599E9ED0072119E /* JKDate.swift */,
 				55B82E902599DAD20072119E /* JKString.swift */,
 				55B82E8F2599DAD20072119E /* JKSubstring.swift */,
 			);
@@ -431,6 +434,7 @@
 				55B82E922599DAD20072119E /* JKString.swift in Sources */,
 				2AA23D97F4415079A1798B9BBC40FDA9 /* JKBase-dummy.m in Sources */,
 				55B82E912599DAD20072119E /* JKSubstring.swift in Sources */,
+				55B82EF12599E9ED0072119E /* JKDate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
