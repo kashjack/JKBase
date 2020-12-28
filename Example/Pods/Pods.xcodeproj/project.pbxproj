@@ -11,9 +11,9 @@
 		08325A2CC636E4E2C13CB8D80862DB2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		2AA23D97F4415079A1798B9BBC40FDA9 /* JKBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 866D27E665B36490ECBE00FC1CF0B8AE /* JKBase-dummy.m */; };
 		420F7336FD8328472487601A705C79D4 /* Pods-JKBase_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C39F46EA03346E6CB3D06A6AA27194B3 /* Pods-JKBase_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5292A417625B70848996D60E2BDEED29 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517314E88AAAA48EE6CB165296AE4BFF /* UIColor+Extension.swift */; };
-		55B82DFF2599C36F0072119E /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B82DF72599C36F0072119E /* String+Extension.swift */; };
-		55B82E022599C36F0072119E /* Substring+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B82DFA2599C36F0072119E /* Substring+Extension.swift */; };
+		55B82E8B2599DAC60072119E /* JKColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B82E8A2599DAC60072119E /* JKColor.swift */; };
+		55B82E912599DAD20072119E /* JKSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B82E8F2599DAD20072119E /* JKSubstring.swift */; };
+		55B82E922599DAD20072119E /* JKString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B82E902599DAD20072119E /* JKString.swift */; };
 		86549872CB6C558834551548F22C4F59 /* Pods-JKBase_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA7C9A26415DAEFFFD8DFDDA31C56003 /* Pods-JKBase_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A616ABFA73CF6A9FDF2199BF0BBF5CDF /* Pods-JKBase_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3C827F1CA7D8AA151E58FA57D4605C /* Pods-JKBase_Tests-dummy.m */; };
 		D52BC71308CFDAEB9125A7B1E64A6010 /* JKBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC615F9F0803B1B8E8AF71AE82F53FF6 /* JKBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -47,10 +47,10 @@
 		37BEA57BD23B4E2619DAB07A62DB5D85 /* Pods-JKBase_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JKBase_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3A314D40EE84A8ECEDCFDDAFCEA8D3B6 /* JKBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JKBase.debug.xcconfig; sourceTree = "<group>"; };
 		4B9B6D0CC3688FF04F21A4DD08FBA055 /* JKBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JKBase.modulemap; sourceTree = "<group>"; };
-		517314E88AAAA48EE6CB165296AE4BFF /* UIColor+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		5285721891D1A1BA679467171CB2352F /* JKBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		55B82DF72599C36F0072119E /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
-		55B82DFA2599C36F0072119E /* Substring+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Substring+Extension.swift"; sourceTree = "<group>"; };
+		55B82E8A2599DAC60072119E /* JKColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JKColor.swift; path = ../../Classes/JKColor.swift; sourceTree = "<group>"; };
+		55B82E8F2599DAD20072119E /* JKSubstring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JKSubstring.swift; path = ../../../Classes/JKSubstring.swift; sourceTree = "<group>"; };
+		55B82E902599DAD20072119E /* JKString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JKString.swift; path = ../../../Classes/JKString.swift; sourceTree = "<group>"; };
 		5F3C827F1CA7D8AA151E58FA57D4605C /* Pods-JKBase_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JKBase_Tests-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7BD7EA7C18F627BD51EF62BCD09F7BBD /* JKBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JKBase.release.xcconfig; sourceTree = "<group>"; };
@@ -107,6 +107,7 @@
 		3313C50DB2F9D0F47FAAA04017767128 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
+				55B82E712599D98F0072119E /* References */,
 				6341E7241A471096DCAEA90158E51C07 /* JKBase */,
 			);
 			name = "Development Pods";
@@ -129,36 +130,37 @@
 			path = "Target Support Files/Pods-JKBase_Example";
 			sourceTree = "<group>";
 		};
-		55B82DE72599C2510072119E /* BaseExtension */ = {
+		55B82E712599D98F0072119E /* References */ = {
 			isa = PBXGroup;
 			children = (
-				55B82DF22599C35E0072119E /* Foundation */,
-				55B82DEE2599C2C40072119E /* UIKit */,
+				55B82E882599DAB30072119E /* Foundation */,
+				55B82E872599DAB30072119E /* UIKit */,
 			);
-			path = BaseExtension;
+			name = References;
+			path = ../../JKBase/References;
 			sourceTree = "<group>";
 		};
-		55B82DEE2599C2C40072119E /* UIKit */ = {
+		55B82E872599DAB30072119E /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				517314E88AAAA48EE6CB165296AE4BFF /* UIColor+Extension.swift */,
+				55B82E8A2599DAC60072119E /* JKColor.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
 		};
-		55B82DF22599C35E0072119E /* Foundation */ = {
+		55B82E882599DAB30072119E /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				55B82DF32599C36F0072119E /* String */,
+				55B82E892599DAB30072119E /* String */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
 		};
-		55B82DF32599C36F0072119E /* String */ = {
+		55B82E892599DAB30072119E /* String */ = {
 			isa = PBXGroup;
 			children = (
-				55B82DF72599C36F0072119E /* String+Extension.swift */,
-				55B82DFA2599C36F0072119E /* Substring+Extension.swift */,
+				55B82E902599DAD20072119E /* JKString.swift */,
+				55B82E8F2599DAD20072119E /* JKSubstring.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -174,7 +176,6 @@
 		6341E7241A471096DCAEA90158E51C07 /* JKBase */ = {
 			isa = PBXGroup;
 			children = (
-				55B82DE72599C2510072119E /* BaseExtension */,
 				924C89F3C5DE4EA33488E799948BFAA3 /* Pod */,
 				E5B1EF664887456724E766441584F020 /* Support Files */,
 			);
@@ -355,6 +356,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					956814A54A3CE8166E31B1EC2FD6EC40 = {
+						LastSwiftMigration = 1230;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -421,10 +427,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55B82E022599C36F0072119E /* Substring+Extension.swift in Sources */,
+				55B82E8B2599DAC60072119E /* JKColor.swift in Sources */,
+				55B82E922599DAD20072119E /* JKString.swift in Sources */,
 				2AA23D97F4415079A1798B9BBC40FDA9 /* JKBase-dummy.m in Sources */,
-				55B82DFF2599C36F0072119E /* String+Extension.swift in Sources */,
-				5292A417625B70848996D60E2BDEED29 /* UIColor+Extension.swift in Sources */,
+				55B82E912599DAD20072119E /* JKSubstring.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,6 +619,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7BD7EA7C18F627BD51EF62BCD09F7BBD /* JKBase.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -705,6 +712,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3A314D40EE84A8ECEDCFDDAFCEA8D3B6 /* JKBase.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -724,6 +732,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";

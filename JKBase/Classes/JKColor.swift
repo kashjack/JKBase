@@ -1,12 +1,12 @@
 //
-//  AppDelegate.swift
+//  JKColor.swift
 //  JKBase
 //
-//  Created by kashjack on 12/25/2020.
-//  Copyright (c) 2020 kashjack. All rights reserved.
+//  Created by worldunionYellow on 2020/12/28.
 //
 
 import UIKit
+
 
 public extension UIColor {
 
