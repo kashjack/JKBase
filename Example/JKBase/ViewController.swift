@@ -7,12 +7,13 @@
 //
 
 import UIKit
+import JKBase
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.view.backgroundColor = UIColor.init(hexString: "000000")
     }
 
     override func didReceiveMemoryWarning() {
