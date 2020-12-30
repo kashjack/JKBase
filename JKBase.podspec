@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "JKBase"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "集合一些简单的控件的常用方法，方便小型项目和个人开发者快速上手"
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => "MIT", :file => "LICENSE" }
   s.author           = { "kashjack" => "kashjack@163.com" }
-  s.source           = { :git => "https://github.com/kashjack/JKBase.git", :tag => "v0.1.1" }
+  s.source           = { :git => "https://github.com/kashjack/JKBase.git", :tag => "v0.1.2" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = "9.0"

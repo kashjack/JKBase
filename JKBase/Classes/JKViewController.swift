@@ -6,7 +6,9 @@
 //
 
 import UIKit
-import Network
+import Reachability
+import RxCocoa
+import RxSwift
 
 class JKBaseViewController: UIViewController {
 
@@ -18,7 +20,7 @@ class JKBaseViewController: UIViewController {
     }()
     
     private let reachability = try! Reachability() // 网络状态
-
+    public let disposeBag = DisposeBag()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,6 +47,17 @@ class JKBaseViewController: UIViewController {
         }, onError: nil, onCompleted: nil, onDisposed: nil).disposed(by: self.disposeBag)
     }
 
+    private func backBtnAction(completion: (() -> Void)? = nil) { // 移除通知
+        NotificationCenter.default.removeObserver(self)
+        let n = navigationController?.childViewControllers.count ?? 0
+        if n > 1 {
+            navigationController?.popViewController(animated: true)
+        }else{
+            dismiss(animated: true, completion: completion)
+        }
+    }
+
+
 
     // 创建网络监听
     func setReachability() {
@@ -53,7 +66,7 @@ class JKBaseViewController: UIViewController {
             if reachability.connection == .wifi {
                 printLog("Reachable via WiFi")
             } else {
-                self.alertCellularTip()
+//                self.alertCellularTip()
                 printLog("Reachable via Cellular")
             }
         }
