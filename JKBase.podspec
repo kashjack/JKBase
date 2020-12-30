@@ -38,5 +38,13 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'ESPullToRefresh'
+   s.dependency 'SnapKit'
+   s.dependency 'Kingfisher'
+   s.dependency 'LYEmptyView'
+   s.dependency 'ReachabilitySwift'
+   s.dependency 'SwiftyJSON'
+   s.dependency 'HandyJSON'
+   s.dependency 'RxCocoa'
+   s.dependency 'RxSwift'
 end

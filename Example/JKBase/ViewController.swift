@@ -11,9 +11,14 @@ import JKBase
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var labForDateTitle: UILabel!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.init(hexString: "000000")
+        let time: TimeInterval = 1609221250
+        
+//        self.labForDateTitle.text = time.convertToDateStr()
+
     }
 
     override func didReceiveMemoryWarning() {
