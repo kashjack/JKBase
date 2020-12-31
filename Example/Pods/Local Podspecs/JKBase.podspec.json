@@ -1,6 +1,6 @@
 {
   "name": "JKBase",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "集合一些简单的控件的常用方法，方便小型项目和个人开发者快速上手",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/kashjack/JKBase",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/kashjack/JKBase.git",
-    "tag": "v0.1.1"
+    "tag": "v0.1.2"
   },
   "platforms": {
     "ios": "9.0"
@@ -27,9 +27,6 @@
 
     ],
     "Kingfisher": [
-
-    ],
-    "LYEmptyView": [
 
     ],
     "ReachabilitySwift": [

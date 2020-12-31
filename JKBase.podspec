@@ -41,7 +41,6 @@ TODO: Add long description of the pod here.
    s.dependency 'ESPullToRefresh'
    s.dependency 'SnapKit'
    s.dependency 'Kingfisher'
-   s.dependency 'LYEmptyView'
    s.dependency 'ReachabilitySwift'
    s.dependency 'SwiftyJSON'
    s.dependency 'HandyJSON'
