@@ -10,16 +10,6 @@ import UIKit
 
 public extension UIColor {
 
-    // 主颜色
-    static var mainColor: UIColor {
-        get {
-            if let hexString = UserDefaults.standard.string(forKey: "JKBaseMainColor") {
-                return UIColor.init(hexString: hexString)
-            }
-            return UIColor.white
-        }
-    }
-
     convenience init(hexString: String, _ alpha: CGFloat = 1) {
         var cString: String = hexString.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
         if cString.hasPrefix("0X") || cString.hasPrefix("#"){
